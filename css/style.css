@@ -219,3 +219,75 @@ header #header_contact {
     width: 220px;
     float: right;
 }
+
+/**************************************
+ * サイドバー - バナーエリア
+ **************************************/
+
+#side_banner {
+    margin-bottom: 30px;
+}
+
+#side_banner h2 {
+    /* 背景色 */
+    background-color: #716961;
+    /* 文字色 */
+    color: #fff;
+    /* 内側余白 */
+    padding: 7px;
+    /* 文字サイズ */
+    font-size: 14px;
+    /* 文字中央揃え */
+    text-align: center;
+}
+
+#side_banner ul {
+    /* リストの記号を消す */
+    list-style: none;
+    /* 外側余白 */
+    margin: 0px;
+    /* 内側余白 */
+    padding: 0px;
+}
+
+/**************************************
+ * サイドバー - お問い合わせエリア
+ **************************************/
+
+#side_contact {
+    /* 外側下余白 */
+    margin-bottom: 30px;
+    /* 枠線 */
+    border: 1px solid #b7a077;
+    /* 文字色 */
+    color: #7F7259;
+    /* 文字中央揃え */
+    text-align: center;
+}
+
+#side_contact h2 {
+    /* 背景色 */
+    background-color: #b7a077;
+    /* 文字色 */
+    color: #fff;
+    /* 内側余白 */
+    padding: 7px;
+    /* 文字サイズ */
+    font-size: 14px;
+}
+
+#side_contact address {
+    /* 太文字 */
+    font-weight: bold;
+    /* 文字サイズ */
+    font-size: 20px;
+    /* 斜体解除 */
+    font-style: normal;
+}
+
+#side_contact address img {
+    /* 縦位置調整 */
+    vertical-align: middle;
+    /* 外右側余白 */
+    margin-right: 5px;
+}
