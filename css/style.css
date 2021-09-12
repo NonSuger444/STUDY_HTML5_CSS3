@@ -51,6 +51,40 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
 }
 
+/* メインコンテンツ - 大見出し */
+#main h1 {
+    /* 背景画像 */
+    background-image: url(../images/header_bg.jpg);
+    /* 内側余白 */
+    padding: 30px 30px 3-px 20px;
+    /* 文字サイズ */
+    font-size: 26px;
+    /* 下線 */
+    border-bottom: solid 1px #8b7348
+}
+
+/* メインコンテンツ - 中見出し */
+#main h2 {
+    /* 文字サイズ */
+    font-size: 22px;
+    /* 枠線 */
+    border: 1px solid #b7a077;
+    /* 内側余白 */
+    padding: 11px 22px;
+    /* 角丸 */
+    border-radius: 5px;
+}
+
+/* メインコンテンツ - 小見出し */
+#main h3 {
+    /* 文字サイズ */
+    font-size: 18px;
+    /* 左線 */
+    border-left: solid 3px #b7a077;
+    /* 内側余白 */
+    padding: 4px 9px 4px 14px;
+}
+
 /**************************************
  * 段落
  **************************************/
@@ -70,3 +104,4 @@ img {
     /* 縦位置調整 => 画像下にある余白を削除 */
     vertical-align: bottom;
 }
+
