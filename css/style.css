@@ -194,3 +194,28 @@ header #header_contact {
 #global_navi ul li a:hover {
     background-color: #8c7a5b;
 }
+
+/**************************************
+ * メイン部分
+ **************************************/
+
+#wrapper {
+    /* 横幅 */
+    width: 980px;
+    /* 外側余白 */
+    margin: 0 auto;
+    /* 親要素の高さがゼロになる現象を防ぐ */
+    overflow: hidden;
+}
+
+#main {
+    /* 横幅 */
+    width: 730px;
+    float: left;
+}
+
+#sidebar {
+    /* 横幅 */
+    width: 220px;
+    float: right;
+}
