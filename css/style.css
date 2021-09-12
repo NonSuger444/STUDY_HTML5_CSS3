@@ -136,3 +136,61 @@ header #header_contact {
     float: right;
     margin: 35px 0 0;
 }
+
+/**************************************
+ * グローバルナビゲーション
+ **************************************/
+
+#global_navi {
+    /* 横幅 */
+    width: 980px;
+    /* フロート解除 */
+    clear: both;
+    /* 親要素の高さがゼロになる現象を防ぐ */
+    overflow: hidden;
+    /* 外側余白 */
+    margin: 16px auto;
+}
+
+#global_navi ul {
+    /* 行頭アイコンを消す */
+    list-style: none;
+    /* 外側余白 => 行頭アイコンのスペースを消す */
+    margin:  0px;
+    /* 内側余白 => 行頭アイコンのスペースを消す */
+    padding: 0px;
+}
+
+#global_navi ul li {
+    /* 横幅 */
+    width: 195px;
+    /* 横並び */
+    float: left;
+    /* 右側外余白 */
+    margin-right: 1px;
+    /* 文字中央揃え */
+    text-align: center;
+}
+
+#global_navi ul li a {
+    /* クリックできる領域を広げる */
+    display: block;
+    /* 内側余白 */
+    padding: 16px;
+    /* 背景色 */
+    background-color: #352b23;
+    /* 文字色 */
+    color: #fff;
+    /* リンク下線を消す */
+    text-decoration: none;
+}
+
+/* 現在地を示す */
+#global_navi ul li.current a {
+    background-color: #b7a077;
+}
+
+/* マウスポインタを乗せた場合 */
+#global_navi ul li a:hover {
+    background-color: #8c7a5b;
+}
