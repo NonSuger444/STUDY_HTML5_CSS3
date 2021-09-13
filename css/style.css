@@ -291,3 +291,34 @@ header #header_contact {
     /* 外右側余白 */
     margin-right: 5px;
 }
+
+#side_contact .contact_button {
+    /* インライン配置 => 高さ･幅指定可能 */
+    display: inline-block;
+    /* 背景色 */
+    background: #f1ede4;
+    /* グラデーション */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f1ede4));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f1ede4 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f1ede4 100%);
+    /* 文字色 */
+    color: #b7a077;
+    /* 内側余白 */
+    padding: 10px;
+    /* 枠線 */
+    border: 1px solid #b7a077;
+    /* 角丸 */
+    border-radius: 5px;
+    /* 下線 */
+    text-decoration: none;
+}
+
+/* マウスポインタをボタンに乗せた時 */
+#side_contact .contact_button:hover {
+    /* 背景色 */
+    background: #b7a077;
+    /* グラデーション */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b7a077), color-stop(100%, #e2cda7));
+    background: -webkit-linear-gradient(top, #b7a077 0%, #e2cda7 100%);
+    background: linear-gradient(to bottom, #b7a077 0%, #e2cda7 100%);
+}
