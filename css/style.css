@@ -322,3 +322,61 @@ header #header_contact {
     background: -webkit-linear-gradient(top, #b7a077 0%, #e2cda7 100%);
     background: linear-gradient(to bottom, #b7a077 0%, #e2cda7 100%);
 }
+
+/**************************************
+ * フッター部分
+ **************************************/
+
+/* ブラウザの横幅いっぱいまで広げるスタイル */
+footer {
+    /* 背景 */
+    background-color: #352b23;
+    /* 文字配置 */
+    text-align: center;
+}
+
+/* ナビゲーション */
+footer #footer_nav {
+    /* 背景 */
+    background-color: #efefef;
+    /* 内側余白 */
+    padding: 10px 0;
+}
+
+footer #footer_nav ul {
+    /* 行頭アイコンを消す */
+    list-style: none;
+    /* 外側余白 */
+    margin: 0;
+    /* 内側余白 */
+    padding: 0;
+}
+
+footer #footer_nav li {
+    /* 横並び */
+    display: inline;
+    /* 横線 */
+    border-left: solid 1px #aaa;
+    /* 外側余白 */
+    margin-left: 8px;
+    /* 内側余白 */
+    padding-left: 8px;
+    /* 文字サイズ */
+    font-size: smaller;
+}
+
+/* 最後のli要素に対してスタイリング */
+footer #footer_nav li:last-child {
+    border-right: solid 1px #aaa;
+    padding: 0 8px;
+}
+
+/* コピーライト */
+footer small {
+    /* ブロックレベル */
+    display: block;
+    /* 内側余白 */
+    padding: 8px 0;
+    /* 文字色 */
+    color: #fff;
+}
