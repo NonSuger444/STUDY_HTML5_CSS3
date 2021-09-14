@@ -380,3 +380,37 @@ footer small {
     /* 文字色 */
     color: #fff;
 }
+
+/**************************************
+ * パンくずリスト
+ **************************************/
+
+#breadcrumb {
+    /* 文字サイズ */
+    font-size: smaller;
+}
+
+#breadcrumb ol {
+    /* 行頭数字を消す */
+    list-style: none;
+    /* 外側余白 */
+    margin: 0;
+    /* 内側余白 */
+    padding: 0;
+}
+
+#breadcrumb ol li {
+    /* 横並び */
+    display: inline;
+}
+
+/* テキストの右側に階層を示す */
+#breadcrumb ol li::after {
+    content: ">";
+    padding-left: 7px;
+}
+
+/* 最後のテキストの階層表示を消す */
+#breadcrumb ol li:last-child::after {
+    content: none;
+}
