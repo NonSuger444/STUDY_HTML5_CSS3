@@ -48,6 +48,11 @@ a:hover {
     text-decoration: none;
 }
 
+a img {
+    /* アニメーション効果 */
+    transition: opacity 0.2s linear;
+}
+
 a:hover img {
     /* 半透明 */
     opacity: 0.7;
@@ -183,6 +188,8 @@ header #header_contact {
     color: #fff;
     /* リンク下線を消す */
     text-decoration: none;
+    /* アニメーション効果 */
+    transition: background-color 0.2s linear;
 }
 
 /* 現在地を示す */
