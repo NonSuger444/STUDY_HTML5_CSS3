@@ -421,3 +421,70 @@ footer small {
 #breadcrumb ol li:last-child::after {
     content: none;
 }
+
+/**************************************
+ * トップページ
+ **************************************/
+
+/* メインビジュアル */
+#main_visual {
+    /* 横幅 */
+    width: 980px;
+    /* 縦幅 */
+    height: 440px;
+    /* 外側余白 - 中央寄せ */
+    margin: 0 auto 48px;
+}
+
+/* 本文･画像 */
+#point {
+    /* 外側余白 - 下 */
+    margin-bottom: 30px;
+}
+
+#point section {
+    /* 外側余白 - 下 */
+    margin-bottom: 10px;
+    /* 親要素の高さを確保 */
+    overflow: hidden;
+}
+
+#point figure {
+    /* 回り込み - 右側 */
+    float: right;
+    /* 外側余白 */
+    margin: 0 0 0 16px;
+}
+
+#point figcaption {
+    /* 文字サイズ */
+    font-size: 12px;
+    /* 文字色 */
+    color: #9C9689;
+    /* 中央配置 */
+    text-align: center;
+}
+
+/* お知らせ */
+#news dl {
+    /* 親要素の高さを確保 */
+    overflow: hidden;
+}
+
+#news dt {
+    /* 横幅 - 8文字分 */
+    width: 8em;
+    /* 回り込み - 左側 */
+    float: left;
+    /* 外側余白 - 下 */
+    margin-bottom: 10px;
+    /* ひとつ前の要素のfloatを解除 */
+    clear: both;
+}
+
+#news dd {
+    /* 外側余白 - 左 */
+    margin-left: 8em;
+    /* 外側余白 - 下 */
+    margin-bottom: 10px;
+}
