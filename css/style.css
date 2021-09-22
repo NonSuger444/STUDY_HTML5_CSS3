@@ -557,3 +557,109 @@ footer small {
 #gallery ul li:nth-child(3n) {
     margin: 0;
 }
+
+/**************************************
+ * お問い合わせ
+ **************************************/
+
+#entry dl {
+    /* 背景色 */
+    background: #f1ede4;
+    /* 枠線 */
+    border: 1px solid #ddd;
+    /* 上辺ボーダーを消す */
+    border-top: 0;
+}
+
+#entry dl dt,
+#entry dl dd {
+    /* 内側余白 */
+    padding: 10px;
+    /* 枠線 */
+    border-top: 1px solid #ddd;
+}
+
+#entry dl dt {
+    /* 横幅 */
+    width: 13em;
+    /* 横並び */
+    float: left;
+    /* 直前のフロートをクリア */
+    clear: both;
+    /* 太文字 */
+    font-weight: bold;
+}
+
+#entry dl dd {
+    /* 背景色 */
+    background-color: #fff;
+    /* 枠線 - 左側 */
+    border-left: 1px solid #ddd;
+    /* 外側余白 - 左側 => フロート時の開始位置を調整*/
+    margin-left: 13em;
+}
+
+.must {
+    color: #f00;
+}
+
+/* 「お名前」フィールド */
+#entry #name {
+    /* 横幅 */
+    width: 15em;
+    /* 内側余白 */
+    padding: 3px;
+}
+
+/* 「メールアドレス」フィールド */
+#entry #email {
+    /* 横幅 */
+    width: 25em;
+    /* 内側余白 */
+    padding: 3px;
+}
+
+/* チェックボックス･ラジオボタン */
+#entry #category2,
+#entry #category3,
+#entry #questionnaire2,
+#entry #questionnaire3 {
+    margin-left: 15px;
+}
+
+/* テキストエリア */
+#entry #detail {
+    /* 横幅 */
+    width: 36em;
+    /* 立幅 */
+    height: 15em;
+}
+
+/* 送信ボタン */
+#entry #submit_button_cover {
+    /* 中央寄せ */
+    text-align: center;
+}
+
+#entry #submit_button {
+    /* 背景色 */
+    background-color: #b7a077;
+    /* 枠線 */
+    border: 1px solid #b7a077;
+    /* 内側余白 */
+    padding: 15px 100px;
+    /* 角丸 */
+    border-radius: 10px;
+    /* 文字サイズ */
+    font-size: 18px;
+    /* 文字色 */
+    color: #fff;
+    /* カーソルを乗せた際にリンクのポインタとして表示 */
+    cursor: pointer;
+    /* アニメーション */
+    transition: background-color 0.1s linear;
+}
+
+#entry #submit_button:hover {
+    background-color: #c7ae81;
+}
