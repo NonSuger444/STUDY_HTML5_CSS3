@@ -518,3 +518,42 @@ footer small {
     /* 横幅 */
     width: 5em;
 }
+
+/**************************************
+ * ギャラリー
+ **************************************/
+
+#gallery ul {
+    /* 行頭アイコンを消す */
+    list-style: none;
+    /* 外側余白 */
+    margin: 0;
+    /* 内側余白 */
+    padding: 0;
+}
+
+#gallery ul li {
+    /* 横幅 */
+    width: 220px;
+    /* 外側余白 */
+    margin: 0 30px 30px 0;
+    /* 内側余白 */
+    padding: 10px 0;
+    /* 枠線 */
+    border: solid 1px #ccc;
+    /* 項目を横並べにして段組み表示 */
+    float: left;
+    /* 画像と文字を中央寄せ */
+    text-align: center;
+    /* 文字色 */
+    color: #b7a077;
+    /* 太文字 */
+    font-weight: bold;
+    /* ぼかし影 */
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* 特定要素を選択 => 3の倍数のボックスを指定 */
+#gallery ul li:nth-child(3n) {
+    margin: 0;
+}
