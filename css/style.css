@@ -488,3 +488,33 @@ footer small {
     /* 外側余白 - 下 */
     margin-bottom: 10px;
 }
+
+/**************************************
+ * 講座案内
+ **************************************/
+
+#course table {
+    /* 横幅 - カラム幅いっぱいまで枠を広げる */
+    width: 100%;
+    /* セルのボーダーが重なるようにする */
+    border-collapse: collapse;
+    /* 外側余白 - 下 */
+    margin-bottom: 16px;
+}
+
+#course th,
+#course td {
+    /* 枠線 */
+    border: 1px solid #c7c7c7;
+    /* 内側余白 */
+    padding: 8px;
+}
+
+#course th {
+    /* 背景色 */
+    background-color: #f1ede4;
+    /* 文字位置 */
+    text-align: left;
+    /* 横幅 */
+    width: 5em;
+}
