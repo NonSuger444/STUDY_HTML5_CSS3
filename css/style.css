@@ -663,3 +663,111 @@ footer small {
 #entry #submit_button:hover {
     background-color: #c7ae81;
 }
+
+/**************************************
+ * メディアクエリ
+ * => PC用の設定を上書きしたいので一番最後に記載する
+ **************************************/
+
+ /* 画面幅が767px以下の場合に適用 => スマートフォン用 */
+@media screen and (max-width: 767px) {
+    /* 画像幅調整 */
+    img {
+        /* 最大幅 */
+        max-width: 100%;
+    }
+
+    /* 各要素幅調整 */
+    header,
+    #global_navi,
+    #sidebar,
+    #wrapper {
+        /* 横幅 */
+        width: 100%;
+    }
+
+    /* ヘッダー調整 */
+    header h1 {
+        /* フロート解除 */
+        float: none;
+        /* 中央寄せ */
+        text-align: center;
+    }
+
+    header h1 img {
+        /* 横幅 */
+        width: 50%;
+    }
+
+    header #header_contact {
+        /* お問い合わせボタン => 非表示 */
+        display: none;
+    }
+
+    /* グローバルナビゲーション調整 */
+    #global_navi ul li {
+        /* 横幅 */
+        width: 50%;
+        /* 内側余白 */
+        padding: 0.5px;
+        /* 外側余白 */
+        margin: 0;
+        /* 幅指定にボーダーまでを含める */
+        box-sizing: border-box;
+    }
+
+    #global_navi ul li a {
+        /* 外側余白 */
+        margin: 0;
+    }
+
+    #global_navi ul li:last-child {
+        /* 横幅 */
+        width: 100%;
+    }
+
+    /* メインコンテンツ調整 */
+    #main {
+        /* 横幅 */
+        width: 100%;
+        /* 内側余白 */
+        padding: 0 5%;
+        /* 幅指定にボーダーまでを含める */
+        box-sizing: border-box;
+    }
+
+    #main figure {
+        /* 中央寄せ */
+        text-align: center;
+    }
+
+    #main_visual {
+        /* 横幅 */
+        width: 100%;
+        /* 縦幅 */
+        height: auto;
+    }
+
+    /* 「こだわり」セクション調整 */
+    #point figure {
+        /* 回り込み解除 */
+        float: none;
+        /* 外側余白 */
+        margin: 0 0 11px 0;
+    }
+
+    /* サイドバー調整 */
+    #side_banner ul li {
+        /* 中央寄せ */
+        text-align: center;
+        /* 外側余白 */
+        margin: 11px auto;
+    }
+
+    #side_contact address img {
+        /* 横幅 */
+        width: 14px;
+        /* 縦幅 */
+        height: 20px;
+    }
+}
